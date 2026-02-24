@@ -108,7 +108,7 @@ module.exports.run = async function({ api, event, args }) {
     }
     
     if (!uid) {
-      return api.sendMessage("❌রাহাদ বসকে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴", threadID, event.messageID);
+      return api.sendMessage("❌মেহেদী আব্বা বলে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴", threadID, event.messageID);
     }
     
     // Get user info
