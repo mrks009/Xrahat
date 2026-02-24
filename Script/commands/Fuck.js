@@ -111,7 +111,7 @@ module.exports.run = async function ({ event, api, args }) {
     }
     
     if (!targetID) {
-        return api.sendMessage("❌রাহাদ বসকে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴", threadID, messageID);
+        return api.sendMessage("❌মেহেদী আব্বা বলে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴", threadID, messageID);
     }
     
     // Check if trying to fuck oneself
