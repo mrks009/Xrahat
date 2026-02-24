@@ -140,7 +140,7 @@ module.exports.run = async ({ event, api, Users, args }) => {
 
     if (!targetID) {
         return api.sendMessage(
-            "❌রাহাদ বসকে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴",
+            "❌মেহেদী বসকে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴",
             threadID,
             messageID
         );
